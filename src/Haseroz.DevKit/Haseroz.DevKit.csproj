@@ -7,9 +7,9 @@
     <SonarQubeTestProject>false</SonarQubeTestProject>
   </PropertyGroup>
 
-  <PropertyGroup>
+  <PropertyGroup Label="Package info">
     <PackageDescription>Versatile .NET library providing foundational utilities for common development tasks.</PackageDescription>
-    <Authors>Gabriel Abreu(@gabrielrabreu)</Authors>
+    <Authors>Gabriel Abreu (@gabrielrabreu)</Authors>
     <PackageProjectUrl>https://github.com/gabrielrabreu/Haseroz.DevKit</PackageProjectUrl>
     <RepositoryUrl>https://github.com/gabrielrabreu/Haseroz.DevKit</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -19,10 +19,10 @@
     <Version>$(Version)</Version>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\..\docs\assets\HaserozDevKit.png" Visible="false" Pack="true" />
-    <None Include="..\..\README.md" Visible="false" Pack="true" />
-    <None Include="..\..\LICENSE" Visible="false" Pack="true" />
+  <ItemGroup Label="Package files">
+    <None Include="..\..\docs\assets\HaserozDevKit.png" Visible="false" Pack="true" PackagePath="/" />
+    <None Include="..\..\README.md" Visible="false" Pack="true" PackagePath="/" />
+    <None Include="..\..\LICENSE" Visible="false" Pack="true" PackagePath="/" />
   </ItemGroup>
 
   <ItemGroup>
