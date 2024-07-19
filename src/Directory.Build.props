@@ -6,8 +6,8 @@
 	
   <PropertyGroup>
     <Authors>Gabriel Abreu(@gabrielrabreu)</Authors>
-    <PackageProjectUrl>https://github.com/gabrielrabreu/Haseroz.DevKit.DotNet</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/gabrielrabreu/Haseroz.DevKit.DotNet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/gabrielrabreu/Haseroz.DevKit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/gabrielrabreu/Haseroz.DevKit</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageIcon>HaserozDevKit.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="HaserozDevKit.png" Visible="false" Pack="true" PackagePath="" />
+    <None Include="..\..\docs\assets\HaserozDevKit.png" Visible="false" Pack="true" PackagePath="" />
     <None Include="..\README.md" Visible="false" Pack="true" PackagePath="/" />
     <None Include="..\LICENSE" Visible="false" Pack="true" PackagePath="/" />
   </ItemGroup>

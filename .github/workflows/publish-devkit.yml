@@ -11,10 +11,12 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Set up .NET Core
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.0.x'
 
@@ -34,5 +36,5 @@ jobs:
         VERSION: ${{ steps.get_version.outputs.VERSION }}
       run: |
         rm -rf ./nupkg/
-        dotnet pack ./src/Haseroz.DevKit/Haseroz.DevKit.csproj --no-build --configuration Release /p:Version=${{ env.VERSION }} --output ./nupkg
+        dotnet pack --no-build --configuration Release /p:Version=${{ env.VERSION }} --output ./nupkg
         dotnet nuget push ./nupkg/*.nupkg -k $NUGET_API_KEY -s https://api.nuget.org/v3/index.json
