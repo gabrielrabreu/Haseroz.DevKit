@@ -20,9 +20,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\docs\assets\HaserozDevKit.png" Visible="false" Pack="true" PackagePath="" />
-    <None Include="..\..\README.md" Visible="false" Pack="true" PackagePath="/" />
-    <None Include="..\..\LICENSE" Visible="false" Pack="true" PackagePath="/" />
+    <None Include="..\..\docs\assets\HaserozDevKit.png" Visible="false" Pack="true" />
+    <None Include="..\..\README.md" Visible="false" Pack="true" />
+    <None Include="..\..\LICENSE" Visible="false" Pack="true" />
   </ItemGroup>
 
   <ItemGroup>
