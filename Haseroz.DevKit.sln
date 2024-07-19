@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB0DBECE-60F4-40F8-89D9-23B67BB87053}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{056351A2-EC3A-4088-8254-8C2B534508FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haseroz.DevKit", "src\Haseroz.DevKit\Haseroz.DevKit.csproj", "{68344AEE-2E4B-41D3-B2ED-A7B5E5B1C427}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Haseroz.DevKit.UnitTests", "tests\Haseroz.DevKit.UnitTests\Haseroz.DevKit.UnitTests.csproj", "{9474B6BC-6D3B-4EA2-8D8C-8CED82400EEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68344AEE-2E4B-41D3-B2ED-A7B5E5B1C427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68344AEE-2E4B-41D3-B2ED-A7B5E5B1C427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68344AEE-2E4B-41D3-B2ED-A7B5E5B1C427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68344AEE-2E4B-41D3-B2ED-A7B5E5B1C427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9474B6BC-6D3B-4EA2-8D8C-8CED82400EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9474B6BC-6D3B-4EA2-8D8C-8CED82400EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9474B6BC-6D3B-4EA2-8D8C-8CED82400EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9474B6BC-6D3B-4EA2-8D8C-8CED82400EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68344AEE-2E4B-41D3-B2ED-A7B5E5B1C427} = {FB0DBECE-60F4-40F8-89D9-23B67BB87053}
+		{9474B6BC-6D3B-4EA2-8D8C-8CED82400EEB} = {056351A2-EC3A-4088-8254-8C2B534508FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46CDDA33-4004-49C0-A2E1-C50E38CB0FC1}
+	EndGlobalSection
+EndGlobal
