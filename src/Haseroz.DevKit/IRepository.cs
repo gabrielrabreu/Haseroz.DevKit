@@ -1,4 +1,4 @@
-﻿namespace Haseroz.DevKit.Repository;
+﻿namespace Haseroz.DevKit;
 
 public interface IRepository<T> : IReadRepository<T> where T : IAggregateRoot
 {
